@@ -4,6 +4,11 @@
     overflow: hidden
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #f1f1f1;
     position: relative;
@@ -15,9 +20,9 @@ body {
     z-index: 0;
     top: 0;
     left: 0;
-    width: 220px;
+    width: 161px;
     height: 100%;
-    background-color: #fff;
+    background-color: rgba(171, 239, 197, 0.457);
     /* text-align: center; */
 }
 
@@ -96,6 +101,6 @@ div {
 }
 .litle {
     text-indent: 13.5em;
-    color: rgb(184, 176, 176);
+    color: rgb(161, 119, 119);
     font-size: 6px;
 }

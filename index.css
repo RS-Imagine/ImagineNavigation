@@ -6,6 +6,10 @@
 a {
     text-decoration: none;
 }
+ul {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-color: #f1f1f1;
@@ -18,9 +22,9 @@ body {
     z-index: 0;
     top: 0;
     left: 0;
-    width: 180px;
+    width: 161px;
     height: 100%;
-    background-color: #fff;
+    background-color: rgba(169, 225, 239, 0.493);
     /* text-align: center; */
 }
 
@@ -36,12 +40,15 @@ body {
     overflow-y: auto;
     height: calc(92vh - 60px);
     overscroll-behavior: contain;
+
+
 }
 
 .menu-Classes {
     line-height: 2em;
     font-size: small;
     color: rgb(35, 199, 21);
+
 }
 
 div {
