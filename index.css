@@ -69,21 +69,37 @@ div.main a {
     background-repeat: no-repeat;
     /* 让背景图基于容器大小伸缩 */
     background-size: auto;
-    background-color: red;
+    background-color: #fb012a;
 
     text-align: center;
     line-height: 1000px;
     margin-top: 7.5px;
+}
+.main:hover{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;
 }
 
 .gmain {
     float: right;
     height: 290px;
     width: 390px;
-    color: red;
+    color: #fb012a;
     background-color: rgb(252, 239, 0);
     text-align: center;
     line-height: 290px;
     margin-left: 7.5px;
     margin-top: 7.5px;
+}
+.gmain:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;
 }
