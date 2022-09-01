@@ -61,7 +61,8 @@ div.main a {
     float: left;
     height: 585px;
     width: 400px;
-    color: aliceblue;
+    font: 30px 黑体;
+    color: yellow;
     background-image: url(https://gmu-download.oss-cn-beijing.aliyuncs.com/MTY1OTQ5MDQ1OTA4MiM3MDkjcG5n.png);
     background-position: center center;
     /* 背景图不平铺 */
@@ -72,16 +73,17 @@ div.main a {
 
     text-align: center;
     line-height: 1000px;
-    margin-top: 5px;
+    margin-top: 7.5px;
 }
 
 .gmain {
     float: right;
     height: 290px;
     width: 390px;
+    color: red;
     background-color: rgb(252, 239, 0);
     text-align: center;
     line-height: 290px;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 7.5px;
+    margin-top: 7.5px;
 }
