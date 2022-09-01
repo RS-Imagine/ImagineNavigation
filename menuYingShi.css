@@ -1,63 +1,62 @@
 * {
     margin: 0;
     align-items: center;
-    overflow: hidden
-}
-
-ul {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background-color: #f1f1f1;
-    position: relative;
-    min-height: 100%;
+    overflow: hidden;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
 }
 
 .sidebar {
     position: fixed;
-    z-index: 0;
+    /* z-index: 0; */
     top: 0;
     left: 0;
-    width: 161px;
+    width: 9.9rem;
     height: 100%;
-    background-color: rgba(171, 239, 197, 0.457);
-    /* text-align: center; */
+    background-color: rgba(169, 225, 239, 0.493);
 }
 
 .sidebar .logo {
-    color: #ff5a5a;
+    /* background-color: #c00; */
     font-weight: 900;
-    padding: 32px 0;
-    text-align: center;
-    display: block;
+    padding: 0.8rem 0.9rem;
+    /* display: inline-block; */
+    /* box-sizing: border-box; */
+    border-bottom: gray solid 2px;
 }
 
-a {
-    text-decoration: none;
+.sidebar .logo a {
+    color: rgb(132, 1, 219);
 }
-a:hover {
-    text-decoration: none;
+
+.sidebar .logo a:hover {
+    color: blue;
 }
 
 .sidebar .menu {
-    overflow-y: auto;
-    height: calc(92vh - 60px);
-    overscroll-behavior: contain;
+    /* display: inline-block; */
+    text-indent: 0.8rem;
+    height: 100%;
+    margin-top: 0.5em;
 }
 
 .menu-Classes {
-    line-height: 2em;
+    /* background: #c00; */
+    line-height: 2.8em;
     font-size: small;
-    color: rgb(35, 199, 21);
+    color: rgb(18, 150, 6);
 }
 
-
-
-div {
-    display: block;
+.menu-Classes a {
+    color: rgb(215, 100, 0);
 }
+
+.menu-Classes:hover ,.menu-Classes a:hover {
+    background-color: rgba(129, 86, 195,0.3);
+    color: rgb(210, 19, 19);
+}
+
 .big {
     margin-bottom: 10px;
     padding: 20px 25px 15px 25px;
