@@ -44,7 +44,6 @@ div.nav {
     background-color: rgba(255, 192, 203, 0.692);
     text-align: center;
     line-height: 40px;
-    
 }
 .classes:hover {
     background-color: rgba(128, 128, 128, 0.763);
@@ -55,6 +54,7 @@ div.con {
     width: 1200px;
     margin: 1rem auto;
     background-color: rgba(48, 48, 141, 0.192);
+    border-radius: 2em;
 }
 
 div.main a {
@@ -74,6 +74,7 @@ div.main a {
     text-align: center;
     line-height: 1000px;
     margin-top: 7.5px;
+    border-radius: 1.5em;
 }
 .main:hover{
     -webkit-transform: translateY(-5px);
@@ -94,6 +95,7 @@ div.main a {
     line-height: 290px;
     margin-left: 7.5px;
     margin-top: 7.5px;
+    border-radius: 1em;
 }
 .gmain:hover {
     -webkit-transform: translateY(-5px);
