@@ -54,8 +54,9 @@ iframe {
     text-align: center;
     line-height: 40px;
 }
-.classes:hover {
+.classes:hover,a:hover{
     background-color: rgba(128, 128, 128, 0.763);
+    color: #fb012a;
 }
 
 div.con {
@@ -64,6 +65,7 @@ div.con {
     margin: 1rem auto;
     background-color: rgba(48, 48, 141, 0.192);
     border-radius: 2em;
+
 }
 
 div.main a {
@@ -91,7 +93,7 @@ div.main a {
     transform: translateY(-5px);
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
-    filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;
+    filter:alpha(Opacity=70);-moz-opacity:0.7;opacity: 0.7;
 }
 
 .gmain {
@@ -107,6 +109,59 @@ div.main a {
     border-radius: 1em;
 }
 .gmain:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;
+}
+
+div.mainWebSite a {
+    float: left;
+    height: 585px;
+    width: 400px;
+    font: 30px 黑体;
+    color: rgb(66, 64, 66);
+    background-image: url(https://img.quankexia.com/kelongwo/wp-content/uploads/2021/07/2021072708045950.png);
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: auto;
+    background-color: rgb(198, 192, 192);
+
+
+    text-align: center;
+    line-height: 1000px;
+    margin-top: 7.5px;
+    border-radius: 1.5em;
+}
+
+
+
+.gmainWebSite {
+    float: right;
+    height: 290px;
+    width: 390px;
+    color: #353434;
+    background-color: rgba(241, 238, 238, 0.863);
+    text-align: center;
+    line-height: 290px;
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+    border-radius: 1em;
+}
+
+.mainWebSite:hover{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    filter:alpha(Opacity=80);-moz-opacity:0.9;opacity: 0.9;
+}
+.gmainWebSite:hover{
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px);
