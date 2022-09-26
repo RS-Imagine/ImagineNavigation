@@ -26,10 +26,13 @@ div.logo {
     text-align: center;
     line-height: 60px;
 }
+div.logo a {
+    font-size:xx-large;
+}
 
 div.nav {
     height: 40px;
-    width: 600px;
+    width: 600px;    
     background-color: none;
     margin: 0 auto;
     font-size: 18px;
