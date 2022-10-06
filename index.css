@@ -18,7 +18,28 @@ body {
     background-size: cover;
     /* 设置背景颜色，背景图加载过程中会显示背景色 */
     background-color: #464646;
+
+    cursor: url(./OperaGxCursor/Normal\ Select.cur), default;
 }
+select{
+	cursor: url(./OperaGxCursor/Link\ Select.cur), pointer;
+}
+button,a:hover{
+	cursor: url(./OperaGxCursor/Alternate\ Select.cur), pointer;
+}
+input{
+	cursor:url(./OperaGxCursor/Text\ Select.cur), text;	
+}
+textarea,input:focus{
+	cursor:url(./OperaGxCursor/Text\ Select.cur), text;
+}
+code{
+	cursor: url(./OperaGxCursor/Location\ Select.cur), default;	
+}
+pre>code{
+	cursor: url(./OperaGxCursor/Precision\ Select.cur), default;	
+}
+
 
 div.logo {
     height: 60px;
